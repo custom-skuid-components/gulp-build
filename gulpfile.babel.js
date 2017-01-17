@@ -158,7 +158,7 @@ function deploy_CLIENT_ORG()
  */
 function deploy_dev()
 {
-   return deploy('mB');
+   return deploy('Company');
 }
 
 /**
@@ -214,11 +214,11 @@ function gulpFail(origin, message)
 ////////////////////////
 
 /**
- * Check for mB environment configs
+ * Check for Company environment configs
  */
 function env_dev()
 {
-   return env('mB');
+   return env('Company');
 }
 
 /**
